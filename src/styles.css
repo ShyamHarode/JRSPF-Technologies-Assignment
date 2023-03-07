@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.productContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  height: 370px;
+  background-color: honeydew;
+  border-radius: 10px;
+}
+.img {
+  width: 230px;
+  height: 250px;
+}
+.navbar {
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SearchBar {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+}
